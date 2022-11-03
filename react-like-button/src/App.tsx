@@ -6,10 +6,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        TypeScript is Good.
+        <LikeButton />
       </header>
     </div>
   );
+}
+
+function LikeButton() {
+  const count = 999;
+  return <span>♥ {count}<span>
 }
 
 export default App;
